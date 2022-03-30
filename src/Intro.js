@@ -6,7 +6,7 @@ const Intro = ({setPortfolio})=> {
     <div className="App">
     <div className='container'>
         <h1 align="center">Hi 👋, I'm Patrick Muoka Wambua</h1>
-        <p align='center'>Am fully hands on software engineer front-end heavy and back-end. view portfolio <br/> 👇 <br/> </p>
+        <p align='center'>A hands on software engineer, front-end heavy and back-end. view portfolio <br/> 👇 <br/> </p>
         <center>
         <button style={{align:'center',padding:'1', width:'35%', backgroundColor:'aqua'}} 
         onClick={()=>setPortfolio(true)}> My Portfolio </button></center>
