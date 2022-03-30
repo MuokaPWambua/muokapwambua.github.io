@@ -1,33 +1,18 @@
 import React from 'react';
-import './Portfolio'
-import {Col, Container, Row} from "react-bootstrap";
+import './Portfolio.css'
 
 export default function Portfolio (){
     return(
-    <div id={'portfolio'} >
-        <Container className={'my-5'}>
-            <Row>
-                <Col>
-                    <img alt={''} src={'/img/about.png'}/>
-                </Col>
-                <Col>
-                    <img alt={''} src={'/img/about_pc.png'}/>
-                </Col>
-                <Col>
-                    <img alt={''} src={'img/hao_comment.png'} />
-                </Col>
-                <Col>
-                    <img alt={''} src={'/img/about_pc.png'}/>
-                </Col>
-               <Col>
-                    <img alt={''} src={'/img/about.png'}/>
-                </Col>
-               <Col>
-                    <img alt={''} src={'/img/hao_comment.png'}/>
-                </Col>
-            </Row>
-        </Container>  
-    </div>    
+    <>
+     <div className='p-bg'>
+          <h1 align='center'> Portfolio</h1>
+          <div id={'p-animate'} ></div>
+     </div>
+     <div className={'r-me'}>
+         <h2 align={'center'}> How To Reach Me </h2> 
+         <p align='center'>linkedin tiwter gmail whatsapp</p> 
+     </div>
+    </>    
 )
 
 }

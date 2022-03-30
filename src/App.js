@@ -1,16 +1,12 @@
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import React from 'react';
 import Intro from './Intro';
 import Portfolio from './Portfolio';
 
 function App() {
-  return (
-    <Router>
-        <Routes>
-	        <Route path='/' element={<Intro/>}/>
-            <Route path='/portfolio' element={<Portfolio/>}/>
-        </Routes>    
-   </Router>
-  );
+    const [portfolio,setPortfolio] = React.useState(false)
+    return (
+    !portfolio ? <Intro setPortfolio={setPortfolio}/>:<Portfolio setPortfolio={setPortfolio}/>    
+ );
 }
 
 export default App;
