@@ -52,17 +52,17 @@ align-items:center;
 }
 @keyframes animate{
 0%{
-background-image:url('../public/img/about.jpg');
+background-image:url('../public/img/about.png');
 background-size:100% 100%;
 background-repeat:no-repeat;
 }
 50%{
-background-image:url('../public/img/haopc.jpg');
+background-image:url('../public/img/haopc.png');
 background-size:100% 100%;
 background-repeat:no-repeat;
 }
 100%{
-background-image:url('../public/img/edrmpc.jpg');
+background-image:url('../public/img/edrmpc.png');
 background-size:100% 100%;
 background-repeat:no-repeat;
 }
