@@ -11,7 +11,7 @@ export default function Portfolio ({setPortfolio}){
      <div className='p-bg'>
         <div>
          <h1>Portfolio</h1>
-         <p>Am fully hands on software engineer, this are but some of my projects.</p> 
+         <p>Am hands on software engineer, this are but some of my projects.</p> 
          <div id={'p-animate'}></div>
         </div>
      </div>
