@@ -5,15 +5,15 @@ import gmail from './gmail.png'
 import whatsapp from './whatsapp.png'
 import li from './li.png'
 
-export default function Portfolio (){
+export default function Portfolio ({setPortfolio}){
     return(
     <>
      <div className='p-bg'>
-          <div className='my-2'>  
-            <h1>Portfolio</h1>
-            <p>My sample projects built in reactjs(Frontend), python(Backend) and postgresql(database) .</p> 
-          </div>
-          <div id={'p-animate'}></div>
+        <div>
+         <h1>Portfolio</h1>
+         <p>Am fully hands on software engineer, this are but some of my projects.</p> 
+         <div id={'p-animate'}></div>
+        </div>
      </div>
      <div className={'r-me'}>
          <h2 align={'center'}> How To Reach Me </h2> 
@@ -24,7 +24,7 @@ export default function Portfolio (){
             <img width={60} height={60} src={whatsapp} alt='whatsapp' className='mx-1'/>
             <img width={60} height={60} src={gmail} alt='gmail' className='mx-1'/>
          </div>
-        <p align='center' className='lead my-3'><u>Back</u></p>
+        <p align='center' className='lead my-3' onClick={()=>setPortfolio(false)}><u>Back</u></p>
     </div>
     </>    
 )
