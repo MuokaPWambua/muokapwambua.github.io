@@ -8,14 +8,16 @@ display:flex;
 align-items:center;
 text-align: center;
 align-content:center;
-margin-bottom:3.65rem;
+margin-bottom:12rem;
 }
 
 
 #p-animate{
- margin-top:2rem;
- position:relative;
- min-height:57vh;
+ margin-left:-13.5%; 
+ width:60%;
+ margin-top:1.5rem;
+ position:absolute;
+ min-height:78%;
  animation-name:animate ;
  animation-delay: 2s;
  animation-duration:13.5s;
@@ -35,7 +37,7 @@ display:flex;
 align-items:center;
 text-align: center;
 align-content:center;
-
+margin-bottom:2rem;
 }
 
 
