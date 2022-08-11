@@ -8,12 +8,12 @@ display:flex;
 align-items:center;
 text-align: center;
 align-content:center;
-margin-bottom:2px;
+margin-bottom:3.65rem;
 }
 
 
 #p-animate{
-
+ margin-top:2rem;
  position:relative;
  min-height:57vh;
  animation-name:animate ;
@@ -40,23 +40,19 @@ align-content:center;
 
 
  #p-animate{
- margin-top:5px;    
+ margin-top:2rem;    
  margin-left:15.5%;
  position:absolute;
  min-height:30%;
  animation-name:animate ;
  animation-delay: 2s;
  animation-duration:13.5s;
- width:65%;
+ width:70%;
  animation-iteration-count: infinite;
  animation-timing-function: ease-in;
 }
 }
 
-
-.r-me{
-margin-top:2rem
-}
 
 
 @keyframes animate{
