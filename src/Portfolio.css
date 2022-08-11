@@ -1,5 +1,5 @@
 .p-bg{
-width:100vw;
+width:100%;
 height:65vh;
 background:#0A0C10;
 flex-flow:column wrap;
@@ -17,15 +17,48 @@ margin-bottom:2px;
  position:relative;
  min-height:57vh;
  animation-name:animate ;
-  animation-delay: 2s;
-  animation-duration:13.5s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
+ animation-delay: 2s;
+ animation-duration:13.5s;
+ animation-iteration-count: infinite;
+ animation-timing-function: ease-in;
 }
 
-.r-me{
-margin-top:3rem
+
+@media only screen and (max-width: 600px){
+.p-bg{
+width:100%;
+height:60vh;
+background:#0A0C10;
+flex-flow:column wrap;
+color:white;
+display:flex;
+align-items:center;
+text-align: center;
+align-content:center;
+
 }
+
+
+ #p-animate{
+ margin-top:5px;    
+ margin-left:15.5%;
+ position:absolute;
+ min-height:30%;
+ animation-name:animate ;
+ animation-delay: 2s;
+ animation-duration:13.5s;
+ width:65%;
+ animation-iteration-count: infinite;
+ animation-timing-function: ease-in;
+}
+}
+
+
+.r-me{
+margin-top:2rem
+}
+
+
 @keyframes animate{
 0%{
 background-image:url('../public/img/about.png');

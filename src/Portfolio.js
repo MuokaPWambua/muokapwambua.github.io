@@ -19,10 +19,18 @@ export default function Portfolio ({setPortfolio}){
          <h2 align={'center'}> How To Reach Me </h2> 
          <p align='center'>Ask me anything?</p>  
          <div align='center'>
+            <a href='https://www.linkedin.com/in/patrick-muoka-187890152/' target='_blank'>
             <img width={60} height={60} src={li} alt='linkedin' className='mx-1'/>
+            </a>
+            <a href='https://twitter.com/muokapwambua' target='_blank'>
             <img width={60} height={60} src={twitter} alt='twitter' className='mx-1'/>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=+254795826354" target='_blank'>
             <img width={60} height={60} src={whatsapp} alt='whatsapp' className='mx-1'/>
+            </a>
+            <a href="mailto:muokapwambua@gmail.com?subject=subject" target='_blank'>
             <img width={60} height={60} src={gmail} alt='gmail' className='mx-1'/>
+            </a>
          </div>
         <p align='center' className='lead my-3' onClick={()=>setPortfolio(false)}><u>Back</u></p>
     </div>
